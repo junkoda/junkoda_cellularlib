@@ -5,9 +5,8 @@
 #define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
 #include "numpy/arrayobject.h"
 
-#include <iostream> // DEBUG!!!
-
 #include <vector>
+#include <typeinfo>
 #include <type_traits>
 
 #include "error.h"
