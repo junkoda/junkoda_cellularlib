@@ -1,4 +1,4 @@
-all: build install
+all: install
 
 build: *.cpp *.h junkoda_cellularlib/*.py
 	python3 setup.py config build_ext --inplace

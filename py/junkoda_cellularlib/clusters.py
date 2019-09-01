@@ -1,5 +1,5 @@
 import numpy as np
-from . import _cellularlib as c
+import junkoda_cellularlib._cellularlib as c  # library in C++
 
 from .graph import Graph
 

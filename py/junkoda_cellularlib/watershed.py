@@ -4,7 +4,7 @@ Class for watershed analysis
 
 import numpy as np
 import pandas as pd
-from . import _cellularlib as c
+import junkoda_cellularlib._cellularlib as c  # library in C++
 from .clusters import Clusters
 from .graph import Graph
 

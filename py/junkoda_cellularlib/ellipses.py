@@ -3,7 +3,7 @@ Cluster finding and ellipse computation
 """
 
 import numpy as np
-from . import _cellularlib as c  # library in C++
+import junkoda_cellularlib._cellularlib as c  # library in C++
 
 
 def obtain(img, pixel_threshold, size_threshold=0):

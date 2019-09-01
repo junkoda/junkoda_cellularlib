@@ -4,7 +4,7 @@ Class for measuring number of clusters for an array of thresholds
 
 import numpy as np
 import numbers
-from . import _cellularlib as c
+import junkoda_cellularlib._cellularlib as c  # library in C++
 
 
 def compute_nclusters(img, thresholds=None, *,

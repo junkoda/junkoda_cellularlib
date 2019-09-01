@@ -6,6 +6,9 @@
 #include "watershed_ncluster.h"
 #include "watershed_nuclei.h"
 
+//
+// List of all functions callable from Python
+//
 
 static PyMethodDef methods[] = {
   {"_watershed_alloc", py_watershed_alloc, METH_VARARGS,

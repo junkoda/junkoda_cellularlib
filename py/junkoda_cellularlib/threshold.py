@@ -7,7 +7,7 @@ Functions:
 
 import numpy as np
 import numbers
-from . import _cellularlib as c  # library in C++
+import junkoda_cellularlib._cellularlib as c  # library in C++
 from .watershed_ncluster import compute_nclusters
 
 
