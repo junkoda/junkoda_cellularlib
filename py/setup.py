@@ -64,7 +64,7 @@ setup(name='junkoda_cellularlib',
                     ],
                     extra_compile_args = ['-std=c++11'],
                     include_dirs = [np.get_include(), ],
-                    libraries = ['gsl', 'gslcblas'],
+                    # libraries = ['gsl', 'gslcblas'],
                     undef_macros = ['NDEBUG'],
           )
       ],
